@@ -106,7 +106,7 @@ function checklist_process() {
 async function checklist_load_file(checklist_file) { 
 	const checklist_obj = await fetch(checklist_file);
 	let checklist = await checklist_obj.text();
-	let checklist_array = checklist.split("\r\n");  
+  	let checklist_array = checklist.replace(/(\r\n|\n|\r)/gm, "|").split("|");
 	checklist_load_items(checklist_array);
 }
 
