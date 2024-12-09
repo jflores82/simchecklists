@@ -4,7 +4,12 @@ I guess it can be applied to any checklists, like grocery shopping, but it wasn'
 
 This software supports any flight simulator software, since it doesn't connect directly to the simulator. So you can use it for cross-check checklists with any flight simulator. The current version has checklists created specifically for: X-Plane 11, X-Plane 12, Microsoft Flight Simulator 2020 (40th anniversary) and Microsoft Flight Simulator 2024, this software isn't affiliated with any flight simulator or any airplane maker.
 
-Coded by [tibonev](http://classicgames.com.br)
+Coded and Started by [tibonev](http://classicgames.com.br) 
+with Help, patches and checklists from: 
+- [Lightdasher360](https://github.com/Lightdasher360)
+- [laxentis](https://github.com/laxentis)
+- [mickster04](https://github.com/mickster04)
+- [Swisskommando](https://www.reddit.com/user/Swisskommando/)
 
 Check the live version of this app @ [checklist.classicgames.com.br](http://checklist.classicgames.com.br)
 
@@ -75,6 +80,14 @@ The code is written in Vanilla Javascript, you need to use a browser with suppor
 No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
+
+Version 2.2 (2024/12/09)
+- Fixed: Linebreaks for cross-OS compatiblity. (Patch by mickster04)
+- Added: Avro RJ70/85/100 checklist by laxentis.
+- Updated: Airbus A32x (Simplified) checklist by tibonev with corrections by Swisskommando on reddit.
+- Updated: Airbus A320neo checklist by tibonev with corrections by Swisskommando on reddit.
+- Updated: Boeing 737-800 checklist by tibonev with corrections by Swisskommando on reddit.
+- Added: Alpha (unsupported) Native Windows version by tibonev.
 
 Version 2.1 (2024/12/05)
 - Added: Airbus A330 / Beluga checklist by tibonev.

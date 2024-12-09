@@ -21,6 +21,10 @@ APU Bleed=ON
 Fuel Pumps=ON
 Transponder=SET
 --Startup--
+Packs=OFF
+Bleeds=OFF
+APU Bleed=ON
+Isolation Valve=OPEN OR AUTO
 Anti-Coll Lights=ON
 Ignition=Eng 2
 Engine 2 Starter=GRD
@@ -35,6 +39,7 @@ Apu=OFF
 Apu Bleed=OFF
 --Before Taxi--
 Packs=ON
+Bleeds=ON
 Wing Lights=ON
 Taxi Lights=ON
 Set Cruise Altitude=ON
@@ -65,7 +70,7 @@ FL240=0.76 MACH
 FL180=0.67 MACH
 FL120=280 KIAS
 Speed=250 KIAS BELOW 10000ft
-Altimeter=RESET TO LOCAL
+Altimeter=RESET TO LOCAL AT TRANSITION
 Landing Lights=ON below 10000ft
 --Approach--
 Seat Belts=ON
