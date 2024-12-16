@@ -7,7 +7,7 @@
 	<head>
 	</head>
 	
-	<body>
+	<body mode="dark">
 		<div class="main-container">
 			<div class="content">
 				<h2><config param="title"></config> - Interactive Checklists:</h2>
@@ -21,6 +21,8 @@
 				<input type="file" name="file" id="file">
 				<input type="submit" name="submit" value="Send">
 			</form>
+
+			<div class="mode_switch icon mode_index"><ins icon="dark" class="icon mode_icon" mode="dark"></ins></div>
 			
 			<include file="inc/_footer.html"></include>
 		</div>
@@ -28,8 +30,10 @@
 
 	<script src="js/general.js"></script>
 	<script src="js/checks.js"></script>
+	<script src="js/mode_theme.js"></script>
 	<script>
 		index_load();
 		index_upload_load();
+		mode_load();
 	</script>
 </html>

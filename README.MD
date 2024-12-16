@@ -81,6 +81,12 @@ No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
 
+Version 2.3 (2024/12/16)
+- Added: Light and Dark Modes.
+- Added: Button and Option to switch between Dark/Light modes instantly. (Fix Issue #33)
+- Added: Light and Dark Modes SVG Icons (from fonts.google.com).
+- Updated: Tweaked CSS to make colors standout better in both modes.
+
 Version 2.2 (2024/12/09)
 - Fixed: Linebreaks for cross-OS compatiblity. (Patch by mickster04)
 - Added: Avro RJ70/85/100 checklist by laxentis.

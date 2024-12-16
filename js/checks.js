@@ -70,7 +70,7 @@ async function checklist_load_masterlist() {
 
 function checklist_display_title(element_id, file, name) { 
 	let element = document.getElementById(element_id);
-	element.innerHTML += "- <a href='checklist.html?l=" + file + "'>" + name + "</a><br>";
+	element.innerHTML += "- <a href='checklist.html?l=" + file + "' mode='dark'>" + name + "</a><br>";
 }
 
 function checklist_process() { 
@@ -136,21 +136,21 @@ function checklist_load_items(array) {
 				title = title.split("--").join('');
 			
 				contentHTML += "<div class='sublist'>";
-				contentHTML += "<div class='" + title_class + "'>" + title + "</div>";
+				contentHTML += "<div class='" + title_class + "' mode='dark'>" + title + "</div>";
 			}
 
 			if(line_array[0].substring(0,2) == "**") {
 				// Comment // 
 				comment = line_array[0];
 				comment = comment.split("**").join('');
-				contentHTML += "<div class='comment purple highlight'>" + comment + "</div>";
+				contentHTML += "<div class='comment purple highlight' mode='dark'>" + comment + "</div>";
 			}
 			
 		} else { 
 			contentHTML += '<div class="items">';
-			contentHTML += '<div class="strike"></div>';
-			contentHTML += '<div class="item">' + line_array[0] +  '</div>';
-			contentHTML += '<div class="state">'+ line_array[1] + '</div></div>';
+			contentHTML += '<div class="strike" mode="dark"></div>';
+			contentHTML += '<div class="item" mode="dark">' + line_array[0] +  '</div>';
+			contentHTML += '<div class="state"mode="dark">'+ line_array[1] + '</div></div>';
 
 		}
 		c = c + 1;
