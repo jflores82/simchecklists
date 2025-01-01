@@ -95,6 +95,10 @@
         {
             "file": "wilga35a_en.txt",
             "name": "PZL-104 Wilga 35A"
+        },
+        {
+            "file": "wilga35a_pl.txt",
+            "name": "PZL-104 Wilga 35A (jęz. polski)"
         }
     ]
 }
