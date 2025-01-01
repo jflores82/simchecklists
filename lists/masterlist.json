@@ -91,6 +91,10 @@
         {
             "file": "TBM900.txt",
             "name": "TBM900"
+        },
+        {
+            "file": "wilga35a_en.txt",
+            "name": "PZL-104 Wilga 35A"
         }
     ]
 }
