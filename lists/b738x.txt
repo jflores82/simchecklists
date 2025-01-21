@@ -8,7 +8,8 @@ Sdby Power=ON
 POS Lights=STEADY
 Seat Belts=ON
 Logo Lights=ON
-APU=ON (WAIT FOR LP WARN)
+APU=ON
+**Wait for Low Pressure Light
 APU Start=HOLD UNTIL 50% EGT
 APU Gen Bus Light=ON
 APU Gen 2=ON
@@ -19,6 +20,7 @@ IRS 2=NAV
 FMC=SET IRS POSITION
 APU Bleed=ON
 Fuel Pumps=ON
+Request IFR Clearance=DONE
 Transponder=SET
 --Startup--
 Packs=OFF
@@ -55,22 +57,20 @@ F/D Right=ON
 --Take Off--
 AutoBrake=RTO
 Landing Lights=ON
-Strobe Lights=ON
 Transponder=TA/RA
 Flaps=SET
 NWS Guard=ON
 Configure AP=DONE
-Rotate Speed=around 130kts 
 --Cruise--
 Taxi Lights=OFF
 Seat Belts=OFF above FL100
 Landing Lights=OFF above FL100
 --Descent--
-FL240=0.76 MACH
-FL180=0.67 MACH
-FL120=280 KIAS
-Speed=250 KIAS BELOW 10000ft
-Altimeter=RESET TO LOCAL AT TRANSITION
+FL240=Max Speed 0.76 MACH
+FL180=Max Speed 0.67 MACH
+FL120=Max Speed 280 KIAS
+Speed=Max Speed 250 KIAS BELOW 10000ft
+Altimeter=RESET TO LOCAL AT TRANSITION LEVEL
 Landing Lights=ON below 10000ft
 --Approach--
 Seat Belts=ON
@@ -91,7 +91,8 @@ On Touchdown=Reverse Thrust
 At 60kts=Reverse Thrust OFF
 --After Landing / Taxi--
 Landing Lights=OFF
-APU=ON (wait for LP)
+APU=ON
+**Wait for Low Pressure Light**
 APU=START
 APU Bleed=ON
 Flaps=RETRACTED
@@ -117,4 +118,4 @@ Apu Bleed=OFF
 F/D Left=OFF
 F/D Right=OFF
 A/T Arm=OFF
-Checklist by tibonev
+--Checklist by tibonev--

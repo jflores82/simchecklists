@@ -23,7 +23,7 @@ Taxi Lights=R-Alt + L
 Chocks=REMOVED
 Ground Power=DISCONNECTED
 Taxi Speed=Around 30kph
-Nose Wheel Steering=ON R-Alt + Q
+Nose Wheel Steering=ON (R-Alt + Q)
 --Take Off--
 Request Take Off=DONE
 Flaps=DOWN
@@ -43,12 +43,14 @@ Landing Lights=R-Alt + L
 --Landing--
 Jettison Ordenance=AS NEEDED
 Downwind=around 400kph
-Landing Gear=DOWN (under 350kph)
+Landing Gear=DOWN
+**Only extend Landing Gear when speed is under 350kph
 Flaps=Down
 Landing Lights=R-Alt + L x 2
 Touchdown=around 240kph.
 Throttle=IDLE
-Parachute=P to deploy (under 230kph)
+Parachute=P to deploy
+**Only deploy under 230kph
 --Shutdown--
 Taxi Lights=R-Alt + L (2x)
 Chocks=ON
@@ -61,4 +63,4 @@ Nav Lights=R-Ctrl + L for OFF
 Taxi Lights=R-Alt + L for OFF
 Canopy Open=L-Ctrl + C
 Electrics off=R-Shift + L
-Checklist by tibonev
+--Checklist by tibonev--

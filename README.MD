@@ -10,6 +10,7 @@ with Help, patches and checklists from:
 - [laxentis](https://github.com/laxentis)
 - [mickster04](https://github.com/mickster04)
 - [Swisskommando](https://www.reddit.com/user/Swisskommando/)
+- [RKAW92](https://github.com/rkaw92)
 
 Check the live version of this app @ [checklist.classicgames.com.br](http://checklist.classicgames.com.br)
 
@@ -51,6 +52,7 @@ If you're on a touchscreen (recommended) just touch the item to cross and move t
 - SIAI-Marchetti SF-260D (Jrollon/X-Plane)
 - Sukhoi Su25-t Frogfoot
 - Sukhoi Su27 / Su33 Flanker
+- PZL-104 Wilga 35A (English and Polish Version)
 
 ## Checklist Files
 Checklist files are simple .txt files, the format is also very simple, basically 1 item per line, with a few exceptions:
@@ -74,12 +76,19 @@ Pretty much self-explanatory, but the file property is the name of the file insi
 
 ### Native Versions
 Currently in alpha stage, Android only and unsupported.
+Windows native version in alpha stage, unsupported.
 
 ### Requirements
 The code is written in Vanilla Javascript, you need to use a browser with support for ECMAScript 2019.
 No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
+
+Version 2.3.1 (2025/01/21)
+- Added: PZL-104 Wilga 35A (English) checklist by RKAW92.
+- Added: PZL-104 Wilga 35A (Polish) checklist by RKAW92.
+- Updated: Boeing 737-800 checklist by tibonev.
+- Updated: Sukhoi Su-27 Flanker checklist by tibonev.
 
 Version 2.3 (2024/12/16)
 - Added: Light and Dark Modes.
