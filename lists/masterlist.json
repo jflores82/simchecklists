@@ -14,7 +14,7 @@
         },
         {
             "file": "a330.txt",
-            "name": "Airbus A330 / Airbus Beluga"
+            "name": "Airbus A330 / Beluga"
         },
         {
             "file": "b461.txt",
@@ -61,12 +61,24 @@
             "name": "Cessna Citation CJ4"
         },
         {
+            "file": "embraer_a29.txt",
+            "name": "Embraer A-29 Super Tucano"
+        },
+        {
+            "file": "embraer_e175_free.txt",
+            "name": "Embraer E-175 (X-Craft 10th Anniversary Edition)"
+        },
+        {
             "file": "f260.txt",
             "name": "SIAI-Marchetti SF-260D (Jrollon/X-Plane)"
         },
         {
             "file": "leg2.txt",
             "name": "Lancair Legacy (Aerobask/X-Plane)"
+        },
+        {
+            "file": "let410.txt",
+            "name": "Let 410 TurboProp"
         },
         {
             "file": "p28a_161.txt",
@@ -90,7 +102,7 @@
         },
         {
             "file": "TBM900.txt",
-            "name": "TBM900"
+            "name": "DAHER-SOCATA TBM900 (Hot Start/XP11)"
         },
         {
             "file": "wilga35a_en.txt",
@@ -98,7 +110,7 @@
         },
         {
             "file": "wilga35a_pl.txt",
-            "name": "PZL-104 Wilga 35A (jęz. polski)"
+            "name": "PZL-104 Wilga 35A"
         }
     ]
 }

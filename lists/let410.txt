@@ -1,0 +1,77 @@
+Let 410 TurboProp
+--Power Up--
+Batteries I & II=ON
+Intercom=ON
+NAV I / VHF I=ON
+GPS=VERIFY ROUTE
+Inverters 36V I & II=ON
+Inverters 115V I & II=ON
+Standbt Gyro Horizon=ON
+VHF II=ON
+NAV II=ON
+ADF I & II=ON
+Gyro Compass I & II=ON
+MRK=ON
+Position Lights=ON
+--Before Start--
+Fuel Pumps LH & RH=ON
+Fuel Cross Feed=ON
+Prop. Feathering BOTH=ON
+IELU LH / RH=ON
+Engine Starting LH & RH=ON
+Anti-Collision Beacon=ON
+--Engine Start--
+Throttles=IDLE
+Propeller Area=CLEAR
+Engine R Start=ON
+**Guarded Switch above flap handle
+Fuel Mixture R (Gas GEN% > 20)=ON
+DC Generator RH=ON
+AC Generator RH=ON
+Engine L Start=ON
+**Guarded switch above flap handle
+Fuel Mixture L (Gas GEN% > 20)=ON
+DC Generator LH=ON
+AC Generator LH=ON
+--After Start--
+Engine Start Guard=CLOSED
+Engine Starting LH & RH=OFF
+Windshield Heat=ON
+DME=ON
+AMS=ON
+RA=ON
+RADAR=ON
+XPDR=ON
+FDR=ON
+Pax Adv=ON
+Ice Detector Rotary and Static=ON
+Passenger Cabin Lights 1/3 & 2/3=ON
+Fasten Seatbelts=ON
+Fuel Cross Feed=OFF
+--Before Takeoff--
+Fuel Quantity=VERIFY
+Takeoff Briefing=DONE
+Flaps=18
+Elevator Trim=SET
+Altimeter/QNH=SET
+Pitot Heat BOTH=ON
+*FO Panel Farthest Right
+Landing Lights=ON
+Transponder=ON
+Garmin 430=GPS MODE
+Autopilot=ARM NAV & V/S
+--After Takeoff--
+Landing Gear=UP
+Flaps=RETRACT
+Engine RPM=CLIMB 1900RPM
+**Max continuous full power 5min.
+Autopilot / FD=AS REQUIRED
+Landing Lights=OFF
+--Before Landing--
+Landing Gear=DOWN
+Flaps=SET
+Prop Speed=MAX
+Landing Lights=ON
+--Based on the Flight Brothers FT youtube tutorial--
+
+

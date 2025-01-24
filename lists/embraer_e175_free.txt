@@ -1,0 +1,146 @@
+Embraer E-175 (X-Craft 10th Anniversary Edition)
+--Pre Engine Start--
+Parking Brake=SET
+Throttle Levels=IDLE
+Batt 2=AUTO
+Batt 1=AUTO
+Grnd Power=CONNECT
+AC Bus 1 GPU=IN USE
+Nav Lights=ON
+Logo Lights=ON
+APU=ON
+**Wait 3s and change to APU to START
+APU Gen=ON
+Radios=ON
+Request Clearance=DONE
+Passenger Signs=AUTO
+No Smoking=ON
+Fasten Seatbelts=ON
+Electric AC Power BUS 1=AUTO
+Electric AC Power BUS 2=AUTO
+DC Power TRU 1=AUTO
+DC Power TRU 2=AUTO
+DC Power TRU ESS=AUTO
+Fuel AC Pump 1=AUTO
+Fuel AC Pump 2=AUTO
+Fuel DC Pump=AUTO
+Fuel XFeed=OFF
+Hydraulic Eng Pump SYS 1=AUTO
+Hydraulic Eng Pump SYS 2=AUTO
+FD=ON
+YD=ON
+DOORS=Closed
+FMS=Configured
+AC Bus 1 GPU=OFF
+Grnd Power=DISCONNECT
+--Engine Start--
+Red Beacon Light=ON
+Request Pushback=DONE
+Ignition Switches=BOTH AUTO
+Engine 2 Powerplant=Start
+**Hold for 5s until fuel flow.
+Engine 1 Powerplant=Start
+**Hold for 5s until fuel flow.
+APU=STOP
+AC Bus 1 GPU=OFF
+--Post Engine Start--
+Windshield Heating 1=ON
+Windshield Heating 2=ON
+Ice Protection Engine 1=ON
+Ice Protection Engine 2=ON
+Ice Protection Wing=ON
+Anti Ice=ON
+AOA Heat=ON
+Pack 1=ON
+Pack Bleed 1=ON
+Pack 2=ON
+Pack Bleed 2=ON
+Pack Selector=BOTH
+Pressurization Mode=AUTO
+--Taxi--
+Request Taxi=DONE
+INSP Light=ON
+Nose Taxi Light=ON
+Side Taxi Light=ON
+Strobe Lights=ON
+--Pre-Take Off--
+Flaps=SET
+Landing Lights=ON
+Autobrake=RTO
+Request Take Off=DONE
+--Climb--
+Landing Gear=UP
+Taxi Lights=OFF
+Flaps=Retracted as REQ
+AP=ON as Required
+--Cruise--
+Landing Lights=OFF above 10000ft
+Passenger Signs=OFF above 10000ft
+--Descent--
+Landing Lights=ON below 10000ft
+Passenger Signs=ON below 10000ft
+Max Speed=250kt under 10000ft
+Speed=210kts
+Flaps=1
+Speed=180kts
+Flaps=2
+Speed=160kts
+Landing Gear=DOWN
+Speed=140kts
+Flaps=3
+Speed=135kts
+Flaps=Full
+Taxi Lights=ON
+--Final Approach--
+Speed=130kts
+APP=ON
+Ground Spoilers=ARMED
+--Touch Down--
+Reverse Thrust=ON until speed is 60kts
+AP=OFF
+--Taxi--
+Taxi Lights=On
+APU=START
+--Shutdown--
+Parking Brake=ON
+Speedbrake=RETRACTED
+Flaps=RETRACTED
+APU Bus=ON
+Engine 2=STOP
+Engine 1=STOP
+Red Beacon Light=OFF
+Strobe Light=OFF
+Landing Lights=OFF
+Taxi Lights=OFF
+Grnd Power=CONNECTED
+GPU Bus=ON
+APU Gen=OFF
+APU=OFF
+Passenger Signs=OFF
+Doors=OPEN
+Logo Lights=OFF
+Pack 2=OFF
+Bleed 2=OFF
+Pack 1=OFF
+Bleed 1=OFF
+Hyd Sys 2=OFF
+Hyd Sys 1=OFF
+AC Pump 2=OFF
+AC Pump 1=OFF
+DC Pump=OFF
+AC Bus 2=OFF
+AC Bus 1=OFF
+GPU Bus=OFF
+Batt 2=OFF
+Batt 1=OFF
+--Checklist by tibonev--
+
+
+
+
+
+
+
+
+
+

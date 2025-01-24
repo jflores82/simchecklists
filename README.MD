@@ -45,14 +45,17 @@ If you're on a touchscreen (recommended) just touch the item to cross and move t
 - Cessna 337 Skymaster (Thranda/X-Plane)
 - Cessna CJ4 (Citation)
 - Cessna 750 (Citation X)
+- Embraer A-29 Super Tucano 
+- Embraer E-175 (X-Crafts Free Version)
 - Lancair Legagy (Aerobask/X-Plane)
+- Let 410 TurboProp
 - Piper Warrior 2 (JustFlight)
+- PZL-104 Wilga 35A (English and Polish Version)
 - Robin DR400/100 Cadet
 - TBM900 (HotStart)
 - SIAI-Marchetti SF-260D (Jrollon/X-Plane)
 - Sukhoi Su25-t Frogfoot
 - Sukhoi Su27 / Su33 Flanker
-- PZL-104 Wilga 35A (English and Polish Version)
 
 ## Checklist Files
 Checklist files are simple .txt files, the format is also very simple, basically 1 item per line, with a few exceptions:
@@ -83,6 +86,11 @@ The code is written in Vanilla Javascript, you need to use a browser with suppor
 No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
+
+Version 2.3.2 (2025/01/24)
+- Added: Embraer E-175 checklist by tibonev.
+- Added: Embraer A-29 Super Tucano checklist by tibonev.
+- Added: Let 410 TurboProp checklist by tibonev.
 
 Version 2.3.1 (2025/01/21)
 - Added: PZL-104 Wilga 35A (English) checklist by RKAW92.

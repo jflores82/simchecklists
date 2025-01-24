@@ -1,0 +1,63 @@
+Embraer A-29 Super Tucano
+--Pre-Start--
+Parking Brake=SET
+**Pulled and Horizontal
+Battery=ON
+Generator=ON
+BKP=AUTO
+EXT PWR=OFF
+MDP 1=ON
+MDP 2=ON
+Avionics Master=ON
+SMS=ON
+Nav Lights=ON
+ECS Temp=Cold
+**Knob is on max left
+Air Cond=OFF
+Recirc Fan=OFF
+Inertial Separator=CLOSE
+**Only open in dirty runways
+Canopy=CLOSED
+--Engine Start--
+Request Startup=DONE
+PMU=AUTO
+IGN=AUTO
+Beacon Lights=ON
+Main Fuel Pump AUTO
+Fuel Aux Pump=AUTO
+Throttle=IDLE
+Avionics Master=OFF
+Engine Start=Hold 2s START
+**Wait until Ng/Temp Stabilize
+--After Start--
+Avionics Master=ON
+Air Cond=ON
+Temp=AUTO
+Ice Prot Pri/TAT=ON
+Ice Prot SEC=ON
+Ice Prot Prop=ON
+AUTO RUDDER=ENGA
+**Switch will automatically move back into PWR
+--Taxi--
+Taxi Lights=ON
+Request Taxi=DONE
+--Take Off--
+Landing Lights=ON
+Formation Lights=ON
+Flaps=DN
+SpeedBrake=RETRACTED
+--Flight--
+Flaps=RETRACTED
+Landing Gear=RETRACTED
+Landing Lights=OFF
+Taxi Lights=OFF
+Intertial Separator=OPEN
+--Landing--
+Flaps=DN
+SpeedBrakes=AS REQ
+Landing Lights=ON
+Taxi Lights=ON
+-- Checklist by tibonev based on several Youtube Tutorials--
+
+
+
