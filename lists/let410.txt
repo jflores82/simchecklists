@@ -6,7 +6,7 @@ NAV I / VHF I=ON
 GPS=VERIFY ROUTE
 Inverters 36V I & II=ON
 Inverters 115V I & II=ON
-Standbt Gyro Horizon=ON
+Standby Gyro Horizon=ON
 VHF II=ON
 NAV II=ON
 ADF I & II=ON
@@ -55,7 +55,7 @@ Flaps=18
 Elevator Trim=SET
 Altimeter/QNH=SET
 Pitot Heat BOTH=ON
-*FO Panel Farthest Right
+**FO Panel Farthest Right
 Landing Lights=ON
 Transponder=ON
 Garmin 430=GPS MODE
@@ -72,6 +72,40 @@ Landing Gear=DOWN
 Flaps=SET
 Prop Speed=MAX
 Landing Lights=ON
+--Shutdown--
+Parking Brake=SET
+Throttle=IDLE
+Landing Lights=OFF
+Fuel Cutoff Engine R=OFF
+DC Generator R=OFF
+AC Generator R=OFF
+Fuel Cutoff Engine L=OFF
+DC Generator L=OFF
+AC=Generator=OFF
+Fuel Pumps LH & RH=OFF
+Prop. Feathering BOTH=OFF
+IELU LH / RH=OFF
+Anti-Collision Beacon=OFF
+Position Lights=OFF
+MRK=OFF
+Gyro Compass I & II=OFF
+ADF I & II=OFF
+NAV II=OFF
+VHF II=OFF
+Standby Gyro Horizon=OFF
+Inverters 115V I & II=OFF
+Inverters 36V I & II=OFF
+NAV I / VHF I=OFF
+Intercom=OFF
+DME=OFF
+AMS=OFF
+RA=OFF
+RADAR=OFF
+XPDR=OFF
+FDR=OFF
+Pax Adv=OFF
+Ice Detector Rotary and Static=OFF
+Passenger Cabin Lights 1/3 & 2/3=OFF
+Pitot Heat BOTH=OFF
+Batteries I & II=OFF
 --Based on the Flight Brothers FT youtube tutorial--
-
-
