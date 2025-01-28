@@ -87,6 +87,9 @@ No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
 
+Version 2.3.3 (2025/01/28)
+- Updated Let 410 Turboprop checklist (typos and added shutdown checklist) by tibonev.
+
 Version 2.3.2 (2025/01/24)
 - Added: Embraer E-175 checklist by tibonev.
 - Added: Embraer A-29 Super Tucano checklist by tibonev.
