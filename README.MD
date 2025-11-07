@@ -41,6 +41,7 @@ If you're on a touchscreen (recommended) just touch the item to cross and move t
 - Boeing 737-800
 - Boeing 747-800
 - Cessna 152
+- Cessna 152 (ZL Sim/X-Plane)
 - Cessna 172 Skyhawk (G530 Version)
 - Cessna 337 Skymaster (Thranda/X-Plane)
 - Cessna CJ4 (Citation)
@@ -80,12 +81,23 @@ Pretty much self-explanatory, but the file property is the name of the file insi
 ### Native Versions
 Currently in alpha stage, Android only and unsupported.
 Windows native version in alpha stage, unsupported.
+These may be older versions when compared to the web version. **Use at your own risk.**
 
 ### Requirements
 The code is written in Vanilla Javascript, you need to use a browser with support for ECMAScript 2019.
 No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
+
+Version 2.3.4 (2025/11/07)
+- Added Cessna 152 (ZL Sim/X-Plane) checklist by tibonev.
+- Updated Cessna 152 checklist (fixed typos and repeated lines).
+- Fixed bug with scratchpad font color in dark mode.
+- Fixed bug with inner window close button color.
+- Fixed bug with chrono window colors in desktop mode.
+- Fixed border rendering on chrono_window.
+- Changed writer pad font size to be more readable.
+- About native versions: Still unsupported, they won't be updated for a while, feel free to build your own from the sources.
 
 Version 2.3.3 (2025/01/28)
 - Updated Let 410 Turboprop checklist (typos and added shutdown checklist) by tibonev.

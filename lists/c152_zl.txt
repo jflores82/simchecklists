@@ -1,12 +1,10 @@
-Cessna 152
+Cessna 152 (ZL Sim/X-Plane)
 --Pre-Flight--
 Walk around=DONE
 Parking Brake=ON
 Circuit Breakers=PUSHED
 Carb Heat=OFF
 Magnetos=OFF
-Avionics=OFF
-Fuel Selector=ON
 Battery=ON
 Fuel Level=CHECKED
 --Before Start--
@@ -20,34 +18,29 @@ Fuel Mix=FULL
 Throttle=1/2 INCH IN
 Prime=2 to 3x
 Beacon Lights=ON
-Strobe Lights=ON
-Nav Lights=ON AT NIGHT
-Landing Lights=ON AT NIGHT
+Nav Lights=ON
 Magnetos on BOTH=DONE
 Start on Key=DONE
 Idle RPM at 1k=DONE
 Alternator=ON
-Avionics=ON 
 Transponder=STD BY
 --Taxi--
 Windows Closed=DONE 
 Doors Closed=DONE
 Test Magnetos=DONE 
 Check Oil Press / Temp=DONE
-Taxi Lights=ON 
-Nav Lights=ON
+Landing Lights=ON
 --Before Take Off--
 Flight Controls=CHECKED
 Flight Instruments=CHECKED
 COM/NAV=SET
 Transponder=ON
-Landing Lights=ON
 Flaps=DN 1 NOTCH
+Magnetic Compass=SET TO RNWY HEADING
 --After Take Off--
 Flaps=RETRACTED
-Taxi Lights=OFF
---Flight--
 Landing Lights=OFF
+--Flight--
 Max RPM=2500
 Max Speed=130kts
 --Approach--
@@ -58,25 +51,19 @@ Carb Heat=ON
 Landing Lights=ON 
 Speed=65KTS +/-
 --After Landing--
-Taxi Lights=ON 
 Carb Heat=OFF
 Flaps=RETRACTED
 Transponder=STD BY
 --Shutdown--
 Parking Brake=ON
 Throttle=IDLE
-Avionics=OFF
 Transponder=OFF
 Alternator=OFF
 Nav Lights=OFF
-Taxi Lights=OFF
 Landing Lights=OFF
 Fuel Mix=IDLE
 Magnetos=OFF
 Beacon Lights=OFF 
-Strobe Lights=OFF
-Chocks=PLACED
-Fuel Selector=OFF
-Doors=OPEN
+Windows/Doors=OPEN AS REQUIRED
 Battery=OFF
 --Checklist by tibonev--

@@ -139,12 +139,12 @@ a { text-decoration:none; }
 }
 
 .writer_pad { 
-	height:85%;
-	width:94%;
+	height:90%;
+	width:95%;
 	background-color:rgba(0,0,0,0);
-	color:var(--dark_txt_color);
 	border:2px solid black;
 	border-radius:5px;
+	font-size:40px;
 }
 
 .chrono_window { 
@@ -167,6 +167,13 @@ a { text-decoration:none; }
 	background-color: var(--dark_bg_highlight);
 	color: var(--dark_txt_color);
 	overflow: auto;
+}
+.chrono_window .chrono_border { 
+	border:1px solid black;
+	padding:10px;
+	width:95%;
+	height:80vh;
+	border-radius:10px;
 }
 
 .chrono_display {
@@ -240,7 +247,7 @@ body[mode="dark"] {
 }
 a[mode="dark"] { color:var(--dark_txt_green); }
 .icon[mode="dark"] { fill:var(--dark_txt_color); }
-.icon-inner[mode="dark"] { fill:var(--dark_txt_color); }
+.icon-inner[mode="dark"] { fill:var(--light_txt_color); }
 .title[mode="dark"] { color:var(--dark_txt_yellow); }
 .green[mode="dark"] { color:var(--dark_txt_green); }
 .blue[mode="dark"] { color:var(--dark_txt_blue); }
@@ -261,6 +268,13 @@ a[mode="dark"] { color:var(--dark_txt_green); }
 	background-color: var(--light_bg_highlight);
 	color: var(--light_txt_color);
 }
+.inner-chrono[mode="dark"] { 
+	background-color: var(--light_bg_highlight);
+	color: var(--light_txt_color);
+}
+.writer_pad[mode="dark"] { 
+	color:var(--light_txt_color);
+}
 
 /* LIGHT MODE */
 body[mode="light"] {
@@ -269,6 +283,7 @@ body[mode="light"] {
 }
 a[mode="light"] { color:var(--light_txt_green); }
 .icon[mode="light"] { fill:var(--light_txt_color); }
+.icon-inner[mode="light"] { fill:var(--dark_txt_color); }
 .title[mode="light"] { color:var(--light_txt_yellow); }
 .green[mode="light"] { color:var(--light_txt_green); }
 .blue[mode="light"] { color:var(--light_txt_blue); }
@@ -285,66 +300,18 @@ a[mode="light"] { color:var(--light_txt_green); }
 	background-color: var(--dark_bg_highlight);
 	color: var(--dark_txt_color);
 }
-
+.inner-chrono[mode="light"] { 
+	background-color: var(--dark_bg_highlight);
+	color: var(--dark_txt_color);
+}
 .inner-writer[mode="light"] { 
 	background-color: var(--dark_bg_highlight);
 	color: var(--dark_txt_color);
 }
-
-/*
-@media (prefers-color-scheme: dark) {
-	body { 
-		background-color:var(--dark_bg_color);
-		color:var(--dark_txt_color);
-	}
-
-	a { color:var(--dark_txt_green); } 
-	.icon { fill:var(--dark_txt_color); }
-	
-	.title {  color:var(--dark_txt_yellow); } 
-	.green { color:var(--dark_txt_green); }
-	.blue { color:var(--dark_txt_blue); }
-	.purple { color:var(--dark_txt_purple); }
-	.state { color:var(--dark_txt_red); }
-	.state-done { color:var(--dark_txt_green); }
-	.highlight { background-color: var(--dark_bg_highlight); }
-	
+.writer_pad[mode="light"] { 
+	color:var(--dark_txt_color);
 }
-	
-@media (prefers-color-scheme: light) {
-	body { 
-		background-color:var(--light_bg_color);
-		color:var(--light_txt_color);
-	}
-	
-	a { color:var(--light_txt_green); } 
-	.icon { fill:var(--light_txt_color); }
-	.icon-inner { fill:var(--dark_txt_color); }
-	.title {  color:var(--light_txt_yellow); } 
-	.green { color:var(--light_txt_green); }
-	.blue { color:var(--light_txt_blue); }
-	.purple { color:var(--light_txt_purple); }
-	.state { color:var(--light_txt_red); }
-	.state-done { color:var(--light_txt_green); }
-	.highlight { background-color: var(--light_bg_highlight); }
-	.strike { background-color:var(--light_strike); }
-		
-	.inner-icao { 
-		background-color: var(--dark_bg_highlight);
-		color: var(--dark_txt_color);
-	}
-		
-	.inner-canvas { 
-		background-color: var(--dark_bg_highlight);
-		color: var(--dark_txt_color);
-	}
 
-	.inner-writer { 
-		background-color: var(--dark_bg_highlight);
-		color: var(--dark_txt_color);
-	}
-}
-*/	
 @media screen and (max-width:999px) { 
 	.icons { 
 		position:fixed;

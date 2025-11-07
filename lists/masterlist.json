@@ -44,6 +44,10 @@
             "file": "c152.txt",
             "name": "Cessna 152"
         },
+		{
+            "file": "c152_zl.txt",
+            "name": "Cessna 152 (ZL Sim/X-Plane)"
+        },
         {
             "file": "c172_530.txt",
             "name": "Cessna 172 Skyhawk (G530)"
