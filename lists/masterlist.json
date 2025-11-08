@@ -65,6 +65,10 @@
             "name": "Cessna Citation CJ4"
         },
         {
+            "file": "cl60.txt",
+            "name": "Bombardier Challenger CL650 (HotStart)"
+        },
+        {
             "file": "embraer_a29.txt",
             "name": "Embraer A-29 Super Tucano"
         },
