@@ -1,4 +1,3 @@
-
 function checklist_item_cross() {
 	let i;
 	let itemsList = document.getElementsByClassName('items');
@@ -95,6 +94,11 @@ function checklist_process() {
 					this.querySelector(".strike").style.opacity = "0";
 					for(i =0; i < itemsList.length; i++) { itemsList[i].classList.remove('highlight'); }
 					this.classList.add('highlight');
+					
+					if(this.nextElementSibling.classList.contains("comment")) { 
+						this.nextElementSibling.classList.add("highlight");
+						this.nextElementSibling.classList.remove("comment-strike");
+					}
 				}
 			}
 		});

@@ -11,6 +11,7 @@ async function upload_load() {
 
 function upload_load_file() { 
     let checklist = sessionStorage.getItem("form-data");
-	let checklist_array = checklist.split("\r\n");  
+	//let checklist_array = checklist.split("\r\n");
+	let checklist_array = checklist.replace(/(\r\n|\n|\r)/gm, "|").split("|");
     checklist_load_items(checklist_array);
 }

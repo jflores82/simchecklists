@@ -1,8 +1,8 @@
 Airbus A330 / Beluga
 --Walkaround--
-Remove Engine Covers
-Remove Pins
-Remove Chocks
+Remove Engine Covers=DONE
+Remove Pins=DONE
+Remove Chocks=DONE
 --Startup--
 Parking Brake=Set
 GPU=Connect
@@ -27,7 +27,7 @@ Radios=ON
 Request Clearence=DONE
 Transponder=SET
 FMC=Program
-*After IR IN Align is done
+**After IR IN Align is done
 --Engine Start--
 Request Startup=DONE
 Beacon Lights=ON

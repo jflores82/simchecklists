@@ -11,6 +11,7 @@ with Help, patches and checklists from:
 - [mickster04](https://github.com/mickster04)
 - [Swisskommando](https://www.reddit.com/user/Swisskommando/)
 - [RKAW92](https://github.com/rkaw92)
+- [chrstphd](https://github.com/chrstphd)
 
 Check the live version of this app @ [checklist.classicgames.com.br](http://checklist.classicgames.com.br)
 
@@ -40,6 +41,7 @@ If you're on a touchscreen (recommended) just touch the item to cross and move t
 - Boeing 727
 - Boeing 737-800
 - Boeing 747-800
+- Bombardier Challenger CL650 (HotStart)
 - Cessna 152
 - Cessna 152 (ZL Sim/X-Plane)
 - Cessna 172 Skyhawk (G530 Version)
@@ -88,6 +90,11 @@ The code is written in Vanilla Javascript, you need to use a browser with suppor
 No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
+Version 2.3.5 (2025/11/10)
+- Added Bombardier Challenger CL650 (HotStart) by chrstphd
+- Fixed typos and errors on the A330 / Beluga checklist.
+- Fixed issue #33 - added the correct behaviour to checks.js.
+- Fixed issue #34 - changed split behaviour on upload.js.
 
 Version 2.3.4 (2025/11/07)
 - Added Cessna 152 (ZL Sim/X-Plane) checklist by tibonev.
