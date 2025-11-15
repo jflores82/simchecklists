@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "dev" ]  # Change to "main" if you deploy from main instead of dev
+    branches: [ "main" ]  # Change to "main" if you deploy from main instead of dev
   workflow_dispatch:  # Allows manual triggering from the Actions tab
 
 permissions:
