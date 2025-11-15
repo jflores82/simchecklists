@@ -1,0 +1,184 @@
+Pilatus PC-12/45-47 (Legacy)
+--Preflight--
+Landing Gear Handle=DOWN
+Circuit Breakers=IN
+BATT Switch=OFF
+EXT PWR Switch=OFF
+N ESNTL BUS Switch=AUTO
+STBY BUS Switch=ON
+External Lights/Elect Sys=AS REQUIRED
+STBY BUS Switch=OFF
+BATT Switch=ON
+BATT Volts=>24V
+N ESNTL BUS Switch=OVRD
+External Lights=ON/CHECK/OFF
+N ESNTL BUS Switch=AUTO
+FIRE Switch=TEST
+Lamp Switch=TEST
+BOOST PUMPS=ON THEN AUTO
+IGNITION=ON THEN AUTO
+Fire System=TEST
+Fuel Quantity=RESET
+Oxygen Pressure Gauge=CHECK
+Passenger Oxygen=AUTO
+BATT Switch=OFF
+EFIS CMPST Switches=NORM
+AHRS 1 & 2=SLAVED
+EPS=TEST
+CABIN PRESS Switch=AUTO/GUARDED
+TRIM INTERRUPT Switch=NORM/GUARDED
+FLAP INTERRUPT Switch=NORM/GUARDED
+OXYGEN Supply Handle=ON
+Oxygen Masks=TEST
+Cockpit/Cabin Light Switches=AS REQUIRED
+LAVATORY (if applicable)=CHECK
+Aircraft Exterior Preflight=COMPLETE
+--Before Start--
+Control Wheel Lock=REMOVE
+Parking Brake=SET
+Wheel Chocks=REMOVED
+Fuel Caps=SECURE
+Crews Seats & Seatbelts=ADJUSTED & SECURE
+Overhead Electrical Switches=OFF
+STBY BUS=ON
+Inertial Separator=OPEN
+Cooling & Heating=OFF
+Seatbelt/No Smoking Signs=AS REQUIRED
+Circuit Breakers=IN
+EPS Switch=TEST/ARMED
+ECS Switch=OFF
+Friction Lock=CHECKED
+MOR/PCL/COND Lever=BACK
+BATT Switch=ON
+NAV Lights=ON
+External Power=AS REQUIRED
+Fuel Quantity & Totalizer=CHECKED & RESET
+Landing Gear Position Lights=3 GREEN
+CAWS=APPROPRIATE
+--Engine Start--
+Beacon Light=ON
+Prop Area=CLEAR
+Condition Lever=CUTOFF
+Starter=ENGAGED
+Condition Lever=GROUND IDLE when NG > ~13%
+Engine Instruments=MONITOR
+Starter Interrupt=PRESS if abnormal ITT/NG/Oil Pressure
+Starter=OFF
+--After Start--
+Engine Instruments=CHECKED
+Generator 1=ON
+Generator 2=ON
+External Power=OFF
+Avionics Bus 1=ON
+Avionics Bus 2=ON
+STBY BUS=OFF
+Cooling & Heating=AS REQUIRED
+EPS Light=OUT
+ECS Switch=AUTO
+Flaps=15°
+--Before Taxi--
+Inverter=SWITCHED
+Pusher Test=COMPLETE
+Avionics=SET
+Autopilot Trim Test=COMPLETE
+Cabin Pressure Controller=SET
+Transponder=SET
+Altitude Pre-Select=SET
+AHRS 1 & 2=CHECKED
+Fuel Quantity & Totalizer=CHECKED & RESET
+CAWS=APPROPRIATE
+Taxi Light=ON
+--Taxi--
+Flight Controls=FREE & CORRECT
+Flight Instruments=CHECK & SET
+Flight Director=ON
+Altitude Pre-Select=SET & ARMED
+Heading Bug=SET & ARMED
+Electric Trim=SET FOR T/O (Green)
+EGPWS=TEST
+Crew Briefing=COMPLETE
+--Line Up--
+Flaps=15° OR 30°
+Strobe Lights=ON
+Landing Lights=ON
+Recog Lights=ON
+Windshield Heat=ON
+Pitot Heat=ON
+Ice Protection=AS REQUIRED
+Condition Lever=FLIGHT IDLE
+Transponder=ALT
+CAWS=APPROPRIATE
+--After Takeoff--
+Landing Gear=UP
+Yaw Dampener=ON
+Flaps=0°
+Landing & Taxi Lights=OFF
+Ice Protection=AS REQUIRED
+Climb Power=SET
+Pressurization=PRESSURIZING
+Engine Instruments=CHECKED
+--Transition Altitude--
+Altimeters=STANDARD
+Recog Lights=OFF
+Inertial Separator=CLOSED
+--Cruise--
+Cruise Power=SET
+Fuel=SUFFICIENT & BALANCED
+Engine Instruments=CHECKED
+Cabin Pressure=STABLE & IN THE GREEN
+Cabin Temperature=APPROPRIATE
+--Descent--
+Cabin Pressurization & Rate=SET
+--Transition Level--
+Altimeters=SET
+--Approach--
+RECOG Lights=ON
+Radios & Navaids=SET & IDENTIFIED
+Altimeters=SET
+Pressurization=SET
+Inertial Separator=OPEN
+Crew/Approach Briefing=COMPLETE
+--Before Landing--
+Flight Controls=FREE & CORRECT
+Flight Instruments=CHECK & SET
+Altitude Pre-Select=SET & ARMED
+Heading bug=SET & ARMED
+Electric Trim=SET FOR T/O
+EGPWS=TEST
+Crew Briefing=COMPLETE
+Yaw Dampener=OFF
+--After Landing--
+Condition Lever=GROUND IDLE
+Flaps=0°
+Strobe Lights=OFF
+Landing Lights=OFF
+RECOG Lights=OFF
+Ice Protection=OFF
+Transponder=STANDBY
+Radar=STANDBY
+Trim=SET FOR T/O
+--Shutdown--
+Parking Brake=SET
+ECS=OFF
+Taxi Light=OFF
+Transponder=VFR
+Cooling & Heating=OFF
+Avionics=OFF
+Generator 2=OFF
+Generator 1=OFF
+ITT=STABLE
+Condition Lever=CUTOFF
+Beacon Light=OFF
+EPS Switch=OFF
+Control Wheel Lock=INSTALLED
+Battery Switch=OFF (NG <10%)
+Oxygen=OFF
+Parking Brake=SET
+--Anti-Ice Check--
+PROP Heat=ON
+Inertial Separator=OPEN
+PUSHER ICE CAWS=ILLUMINATED
+BOOTS Switch=SET 1 MIN
+DE-ICE BOOTS CAWS=ILLUMINATED 1 MIN
+Ice Protection=RESET AS REQUIRED
+---
