@@ -52,6 +52,7 @@ If you're on a touchscreen (recommended) just touch the item to cross and move t
 - Embraer E-175 (X-Crafts Free Version)
 - Lancair Legagy (Aerobask/X-Plane)
 - Let 410 TurboProp
+- Pilatus PC-12 45/47 (Simworks)
 - Piper Warrior 2 (JustFlight)
 - PZL-104 Wilga 35A (English and Polish Version)
 - Robin DR400/100 Cadet
