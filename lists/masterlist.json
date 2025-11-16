@@ -1,88 +1,24 @@
 {
     "checklist": [
         {
-            "file": "b748.txt",
-            "name": "Boeing 747-800"
+            "file": "a310.txt",
+            "name": "Airbus A310 (iniBuilds)"
         },
         {
-            "file": "f260.txt",
-            "name": "SIAI-Marchetti SF-260D (Jrollon/X-Plane)"
-        },
-        {
-            "file": "tbm900.txt",
-            "name": "DAHER-SOCATA TBM900 (Hot Start/XP11)"
-        },
-        {
-            "file": "c172_530.txt",
-            "name": "Cessna 172 Skyhawk (G530)"
-        },
-        {
-            "file": "a330.txt",
-            "name": "Airbus A330 / Beluga"
-        },
-        {
-            "file": "bonanza_g36.txt",
-            "name": "Beechcraft Bonanza G36"
-        },
-        {
-            "file": "embraer_a29.txt",
-            "name": "Embraer A-29 Super Tucano"
-        },
-        {
-            "file": "c337.txt",
-            "name": "Cessna 337 Skymaster (Thranda/X-Plane)"
-        },
-        {
-            "file": "c152.txt",
-            "name": "Cessna 152"
+            "file": "a320neo.txt",
+            "name": "Airbus A320neo"
         },
         {
             "file": "a32x_simple.txt",
             "name": "Airbus A32x Family (Simplified)"
         },
         {
-            "file": "pc12_legacy.txt",
-            "name": "Pilatus PC-12/45-47 (Legacy)"
+            "file": "a330.txt",
+            "name": "Airbus A330 / Beluga"
         },
         {
             "file": "b461.txt",
             "name": "BAe 146 (simplified)"
-        },
-        {
-            "file": "b738x.txt",
-            "name": "Boeing 737-800"
-        },
-        {
-            "file": "wilga35a_en.txt",
-            "name": "PZL-104 Wilga 35A"
-        },
-        {
-            "file": "su27_dcs.txt",
-            "name": "Sukhoi Su-27 / Su-33 (Flanker) (DCS)"
-        },
-        {
-            "file": "wilga35a_pl.txt",
-            "name": "PZL-104 Wilga 35A"
-        },
-        {
-            "file": "c750.txt",
-            "name": "Cessna Citation X"
-        },
-        {
-            "file": "robin_dr400.txt",
-            "name": "Robin DR400/100 Cadet"
-        },
-        {
-            "file": "cessna_cj4.txt",
-            "name": "Cessna Citation CJ4"
-        },
-        {
-            "file": "su25t_dcs.txt",
-            "name": "Sukhoi Su-25t Frogfoot (DCS)"
-        },
-        {
-            "file": "rj85.txt",
-            "name": "Avro RJ70/85/100"
         },
         {
             "file": "b58_xp.txt",
@@ -93,16 +29,56 @@
             "name": "Boeing 727 (FlyJSim)"
         },
         {
+            "file": "b738x.txt",
+            "name": "Boeing 737-800"
+        },
+        {
+            "file": "b748.txt",
+            "name": "Boeing 747-800"
+        },
+        {
+            "file": "bonanza_g36.txt",
+            "name": "Beechcraft Bonanza G36"
+        },
+        {
+            "file": "c152.txt",
+            "name": "Cessna 152"
+        },
+		{
+            "file": "c152_zl.txt",
+            "name": "Cessna 152 (ZL Sim/X-Plane)"
+        },
+        {
+            "file": "c172_530.txt",
+            "name": "Cessna 172 Skyhawk (G530)"
+        },
+        {
+            "file": "c337.txt",
+            "name": "Cessna 337 Skymaster (Thranda/X-Plane)"
+        },
+        {
+            "file": "c750.txt",
+            "name": "Cessna Citation X"
+        },
+        {
+            "file": "cessna_cj4.txt",
+            "name": "Cessna Citation CJ4"
+        },
+        {
             "file": "cl60.txt",
             "name": "Bombardier Challenger CL650 (HotStart)"
         },
         {
-            "file": "a320neo.txt",
-            "name": "Airbus A320neo"
+            "file": "embraer_a29.txt",
+            "name": "Embraer A-29 Super Tucano"
         },
         {
-            "file": "c152_zl.txt",
-            "name": "Cessna 152 (ZL Sim/X-Plane)"
+            "file": "embraer_e175_free.txt",
+            "name": "Embraer E-175 (X-Craft 10th Anniversary Edition)"
+        },
+        {
+            "file": "f260.txt",
+            "name": "SIAI-Marchetti SF-260D (Jrollon/X-Plane)"
         },
         {
             "file": "leg2.txt",
@@ -112,17 +88,41 @@
             "file": "let410.txt",
             "name": "Let 410 TurboProp"
         },
-        {
-            "file": "embraer_e175_free.txt",
-            "name": "Embraer E-175 (X-Craft 10th Anniversary Edition)"
-        },
-        {
-            "file": "a310.txt",
-            "name": "Airbus A310 (iniBuilds)"
-        },
+		{
+			"file": "pc12_legacy.txt",
+			"name": "Pilatus PC-12 45/47 (Simworks)"
+		},
         {
             "file": "p28a_161.txt",
             "name": "Piper Warrior 2"
+        },
+        {
+            "file": "rj85.txt",
+            "name": "Avro RJ70/85/100"
+        },
+        {
+            "file": "robin_dr400.txt",
+            "name": "Robin DR400/100 Cadet"
+        },
+        {
+            "file": "su25t_dcs.txt",
+            "name": "Sukhoi Su-25t Frogfoot (DCS)"
+        },
+        {
+            "file": "su27_dcs.txt",
+            "name": "Sukhoi Su-27 / Su-33 (Flanker) (DCS)"
+        },
+        {
+            "file": "TBM900.txt",
+            "name": "DAHER-SOCATA TBM900 (Hot Start/XP11)"
+        },
+        {
+            "file": "wilga35a_en.txt",
+            "name": "PZL-104 Wilga 35A"
+        },
+        {
+            "file": "wilga35a_pl.txt",
+            "name": "PZL-104 Wilga 35A"
         }
     ]
 }
