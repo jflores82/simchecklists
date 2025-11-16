@@ -21,6 +21,9 @@ def main():
     # Get the data
     json_data = read_first_line_of_txt_files(directory)
 
+    # Sort the checklist array alphabetically by the 'name' field
+    json_data['checklist'].sort(key=lambda x: x['name'])
+
     # Specify the output JSON file
     output_file = 'masterlist.json'
     # output_file = input("JSON Filename:")
