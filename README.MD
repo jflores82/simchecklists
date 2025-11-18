@@ -12,6 +12,7 @@ with Help, patches and checklists from:
 - [Swisskommando](https://www.reddit.com/user/Swisskommando/)
 - [RKAW92](https://github.com/rkaw92)
 - [chrstphd](https://github.com/chrstphd)
+- [alchemydc](https://github.com/alchemydc)
 
 Check the live version of this app @ [checklist.classicgames.com.br](http://checklist.classicgames.com.br)
 
@@ -91,8 +92,12 @@ The code is written in Vanilla Javascript, you need to use a browser with suppor
 No need to build anything, it runs straight from the webserver.
 
 ### Version History: 
+Version 2.3.6 (2026/11/18)
+- Added Pilatus Pilatus PC-12 45/47 (Simworks) checklist by alchemydc.
+- Fixed masterlist_gen.py to generate the lists in alphabetical order. (patch by alchemydc)
+
 Version 2.3.5 (2025/11/10)
-- Added Bombardier Challenger CL650 (HotStart) by chrstphd
+- Added Bombardier Challenger CL650 (HotStart) checklist by chrstphd
 - Fixed typos and errors on the A330 / Beluga checklist.
 - Fixed issue #33 - added the correct behaviour to checks.js.
 - Fixed issue #34 - changed split behaviour on upload.js.
