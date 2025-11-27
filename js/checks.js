@@ -1,61 +1,78 @@
-function checklist_item_cross() {
-	let i;
-	let itemsList = document.getElementsByClassName('items');
-	this.classList.add('items-done');
-	this.querySelector(".state").classList.add('state-done');
-	this.querySelector(".strike").style.opacity = "1";
-		
-	if(this.getBoundingClientRect().top > (screen.height *0.65)) { window.scroll({top: (this.getBoundingClientRect().top -10)  + window.scrollY, behavior: 'smooth'}); }
+function toggleItemState(item, markDone) {
+	let itemEl = item.querySelector('.item');
+	let stateEl = item.querySelector('.state');
+	let strikeEl = item.querySelector('.strike');
 	
-	for(i=0; i < itemsList.length; i++) { 
-		itemsList[i].classList.remove('highlight');
-	}
+	item.classList.toggle('items-done', markDone);
+	itemEl.classList.toggle('items-done', markDone);
+	stateEl.classList.toggle('state-done', markDone);
+	strikeEl.style.opacity = markDone ? "1" : "0";
+}
 
-	let a = this.nextElementSibling;
-	if(a !== null) { 
-		if(this.nextElementSibling.classList.contains("items")) { 
-			this.nextElementSibling.classList.add('highlight');
-		} else { 
-			this.nextElementSibling.nextElementSibling.classList.add('highlight'); 
-		}
-		if(this.nextElementSibling.classList.contains("comment")) { 
-			this.nextElementSibling.classList.remove("highlight");
-			this.nextElementSibling.classList.add("comment-strike");
-		}
+function checklist_item_cross() {
+	let itemsList = document.getElementsByClassName('items');
+	let isDone = this.classList.contains('items-done');
+	
+	// Clear all highlights
+	Array.from(itemsList).forEach(item => item.classList.remove('highlight'));
+	
+	// Toggle this item
+	toggleItemState(this, !isDone);
+	
+	// If unchecking, highlight this item and return
+	if(isDone) {
+		this.classList.add('highlight');
+		return;
 	}
 	
-	for(i=0; i < itemsList.length; i++) { 
-		if(this.innerHTML == itemsList[i].innerHTML) { itemsList[i+1].classList.add('highlight'); break; } 
+	// Scroll if needed
+	if(this.getBoundingClientRect().top > screen.height * 0.65) {
+		window.scroll({top: this.getBoundingClientRect().top - 10 + window.scrollY, behavior: 'smooth'});
+	}
+	
+	// Highlight next item
+	let next = this.nextElementSibling;
+	if(next) {
+		if(next.classList.contains('items')) {
+			next.classList.add('highlight');
+		} else if(next.classList.contains('comment')) {
+			next.classList.add('comment-strike');
+			if(next.nextElementSibling) next.nextElementSibling.classList.add('highlight');
+		}
 	}
 }
 
-function checklist_subcheckcross() { 
-	let currentIndex = 0;
-	let child = this.childNodes;
-	let i;
-		
-	if(child.length > 0) { 
-		for(i = 0; i < child.length; i++) {   
-			if(child[i].classList.contains('items')) { 
-				child[i].querySelector('.item').classList.add('items-done');
-				child[i].querySelector('.state').classList.add('state-done');
-				child[i].querySelector('.strike').style.opacity = "1";
-				if(child[i].classList.contains('highlight')) { child[i].classList.remove('highlight'); }
-			}
-			if(i == child.length -1) { 
-				window.scroll({top: (child[i].getBoundingClientRect().top -10)  + window.scrollY, behavior: 'smooth'});
-			}
-		}
-		var itemList = document.querySelectorAll('.item');
+function checklist_subcheckcross(event) {
+	// Only trigger if double-clicking on the title itself, not child items
+	if(event.target.classList.contains('items') || event.target.closest('.items')) {
+		return;
 	}
 	
-	for(i = 0; i < itemList.length; i++) { 
-		if(!itemList[i].classList.contains('items-done')) { 
-			itemList[i].parentNode.classList.add('highlight');
+	// Get all item children
+	let items = Array.from(this.querySelectorAll('.items'));
+	if(items.length === 0) return;
+	
+	// Determine if we should mark done (if ANY are unchecked)
+	let shouldMarkDone = items.some(item => !item.classList.contains('items-done'));
+	
+	// Toggle all items
+	items.forEach(item => {
+		item.classList.remove('highlight');
+		toggleItemState(item, shouldMarkDone);
+	});
+	
+	// Scroll to appropriate position
+	let scrollTarget = shouldMarkDone ? items[items.length - 1] : items[0];
+	window.scroll({top: scrollTarget.getBoundingClientRect().top - 10 + window.scrollY, behavior: 'smooth'});
+	
+	// Highlight first unchecked item
+	let allItems = document.querySelectorAll('.item');
+	for(let item of allItems) {
+		if(!item.classList.contains('items-done')) {
+			item.parentNode.classList.add('highlight');
 			break;
 		}
 	}
-	
 }
 
 async function checklist_load_masterlist() { 
@@ -95,7 +112,7 @@ function checklist_process() {
 					for(i =0; i < itemsList.length; i++) { itemsList[i].classList.remove('highlight'); }
 					this.classList.add('highlight');
 					
-					if(this.nextElementSibling.classList.contains("comment")) { 
+					if(this.nextElementSibling && this.nextElementSibling.classList.contains("comment")) { 
 						this.nextElementSibling.classList.add("highlight");
 						this.nextElementSibling.classList.remove("comment-strike");
 					}
