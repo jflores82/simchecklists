@@ -67,6 +67,7 @@ Engine gauges=CHECK
 Pitot heat=AS REQUIRED
 Strobes=ON
 Landing lights=AS REQUIRED
+Transponder=ALT
 --Takeoff--
 Throttle=FULL OPEN
 Airspeed indicator=ALIVE
@@ -114,6 +115,7 @@ Strobes=OFF
 Fuel pump=OFF
 Mixture=LEAN AS REQUIRED
 Trim=NEUTRAL
+Transponder=STANDBY
 --Shutdown--
 Parking brake=SET
 Radios=OFF
