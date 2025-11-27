@@ -1,0 +1,223 @@
+Piper Comanche 250
+--Before Engine Start--
+Preflight=COMPLETE
+Passengers=BRIEFED
+Seat belts=SECURE
+Controls lock=REMOVED
+Parking brake=SET
+Gear switch=DOWN
+Flaps=UP
+Radios=OFF
+Autopilot master=OFF
+Avionics master=OFF
+All electrical switches=OFF
+Circuit breakers=IN
+Rotating beacon=ON
+--Engine Start--
+Fuel selectors=DESIRED TANK
+Mixture=RICH
+Throttle=CRACKED
+Prop=FULL FORWARD
+Carb heat=OFF
+Master switch=ON
+Fuel pump=ON
+Fuel pressure=CHECK
+Fuel pump=OFF
+Primer=1-5 STROKES
+Mags=BOTH
+Prop area=CLEAR
+Starter=ENGAGE
+Oil pressure=CHECK
+Mixture=LEAN AS REQUIRED
+--Taxi--
+Primer=LOCKED
+Avionics master=ON
+Ammeter=CHECK
+Radios=ON
+Transponder=AS REQUIRED
+Altimeter=SET
+Heading indicator=SET
+Landing gear lamp=GREEN
+Nav lights=AS REQUIRED
+Parking brake=RELEASE
+Brakes on initial roll=TEST
+--Run-Up--
+Position=INTO WIND
+Brakes=HOLD
+Fuel quantity=CHECK
+Fuel selectors=DESIRED TANK
+Mixture=AS REQUIRED
+Throttle=2000 RPM
+Engine instruments=CHECK
+Magnetos=CHECK (Max drop 125 / Diff 50)
+Prop=CYCLE x 3 (Then 1500 / Check steady)
+Carb heat=CHECK
+--Before Takeoff--
+Control=FREE & CORRECT
+Elevator trim=NEUTRAL
+Rudder trim=AS REQUIRED
+Door=LATCHED
+Flaps=SET AS DESIRED
+Fuel selectors=DESIRED TANK
+Fuel pump=ON
+Mixture=FULL RICH
+Prop=FULL FORWARD
+Carb heat=OFF
+Engine gauges=CHECK
+Pitot heat=AS REQUIRED
+Strobes=ON
+Landing lights=AS REQUIRED
+--Takeoff--
+Throttle=FULL OPEN
+Airspeed indicator=ALIVE
+Engine gauges=CHECK
+Rotate=85 MPH
+Positive climb=VERIFY
+Gear=UP
+Flaps=UP
+Airspeed=Vy 105 MPH
+Emerg. landing area=VERIFY
+--Climb--
+Fuel pump=OFF at 1000 ft AGL
+Power=Do not reduce until 1000 ft AGL
+Throttle=AS TEMPS TOLERATE
+Prop=2400 RPM MAX
+CHT=CHECK
+Mixture=LEAN AS REQUIRED
+--Cruise--
+Throttle=SET
+Prop=SET
+Mixture=LEAN AS REQUIRED
+Fuel pump=VERIFY OFF
+Fuel pressure=CHECK
+Engine gauges=CHECK
+--Approach--
+Autopilot master=OFF
+Fuel pump=ON
+Fuel selectors=DESIRED TANK
+Fuel levels=CHECK
+Fuel pressure=CHECK
+Mixture=RICH (LEAN > 4000 ft)
+Prop=FULL FORWARD
+Carb heat=AS REQUIRED
+Airspeed=120 MPH
+Gear=DOWN
+Flaps=AS DESIRED
+G.U.M.P.=CHECK
+--Landing--
+Gear indicator lamp=GREEN
+Flaps=DOWN (WINDY +5 MPH)
+Airspeed=90 MPH
+--After Landing--
+Flaps=UP
+Strobes=OFF
+Fuel pump=OFF
+Mixture=LEAN AS REQUIRED
+Trim=NEUTRAL
+--Shutdown--
+Parking brake=SET
+Radios=OFF
+Transponder=OFF
+Avionics master=OFF
+Master switch=OFF
+Throttle=CLOSED
+Mixture=IDLE CUTOFF
+Magnetos=OFF
+Control wheel=SECURE
+Doors / windows=CLOSED
+Tie-downs=SECURE
+--Power Loss In Flight--
+Airspeed=105 MPH
+Fuel selector=FULLEST TANK
+Fuel pump=ON
+Mixture=FULL RICH
+Carb heat=ON
+Primer=IN & LOCKED
+Magnetos=CHECK
+Engine gauges=CHECK
+Fuel selector (If No Press)=ALTERNATE TANK
+Carb heat (If Power Restored)=OFF
+Fuel pump (If Power Restored)=OFF
+--Power Off Approach--
+Airspeed=97 MPH
+Prop=FULL AFT
+Landing site=LOCATE
+Transponder=7700
+Radio=121.5 / MAYDAY
+Seatbelts=TIGHT
+Gear (Site Reached)=DOWN
+Flaps (Site Reached)=DOWN
+--Power Off Landing--
+Landing gear=DOWN
+Landing gear (Water)=UP
+Flaps=DOWN
+Throttle=CLOSED
+Mixture=IDLE CUTOFF
+Magnetos=OFF
+Master switch=OFF
+Fuel selector=OFF
+Seat belt=TIGHT
+Door=UNLATCH
+--Engine Fire--
+Throttle=CLOSED
+Mixture=IDLE CUTOFF
+Fuel selector=OFF
+Fuel pump=OFF
+Heater / defroster=OFF
+--Electrical Fire--
+Master switch=OFF
+Generator circuit breaker=PULL
+Vents=OPEN
+Door=OPEN / AS REQUIRED
+Cabin heat=OFF
+Fire extinguisher=ACTIVATE
+--Carburetor Icing--
+Carb Heat=ON
+Throttle=FULL OPEN
+Mixture=ADJUST for smoothness
+--Engine Roughness--
+Carb heat=ON
+Throttle=FULL OPEN
+Carb heat (If continues)=OFF
+Mixture (If continues)=ADJUST for smoothness
+Fuel pump (If continues)=ON
+Fuel selector (If continues)=ALTERNATE TANK
+Engine gauges (If continues)=CHECK
+Magnetos (If continues)=L then R then BOTH
+--High Oil / CHT Temperature--
+Throttle=REDUCE
+Mixture=ENRICH
+Airspeed=ABOVE 120 MPH
+--Loss of Fuel Pressure--
+Fuel pump=ON
+Fuel selector=FULLEST TANK
+Fuel selector (If no pressure)=ALTERNATE TANK
+--Loss of Oil Pressure--
+Action=PREPARE FOR POWER OFF LANDING
+--Propeller Overspeed--
+Throttle=RETARD
+Oil pressure=CHECK
+Prop=FULL AFT
+Airspeed=REDUCE
+Throttle=AS REQUIRED (REMAIN < 2575 RPM)
+--Alternator Failure--
+Ammeter=VERIFY DISCHARGE
+Electrical load=REDUCE
+Generator circuit breaker=RESET
+Master switch (If not restored)=OFF 6 SECS THEN ON
+--Spin Recovery--
+Throttle=IDLE
+Ailerons=NEUTRAL
+Spin direction=IDENTIFY
+Rudder=FULL OPPOSITE
+Control wheel=FORWARD
+Rudder (Rotation stops)=NEUTRAL
+Control wheel (Rotation stops)=SMOOTH PULL
+--Emerg. Landing Gear Extension--
+Master switch=ON
+Circuit breakers=CHECK
+Navigation lights=OFF
+Gear indicator bulbs=CHECK
+Airspeed (If not down)=100 MPH or below
+Gear selector (If not down)=DOWN
+Emergency Ldg Gear Handle=CLICK / EXTEND

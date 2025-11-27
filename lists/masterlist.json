@@ -105,6 +105,10 @@
             "name": "Pilatus PC-12/45-47 (Legacy)"
         },
         {
+            "file": "p24_250_comanche.txt",
+            "name": "Piper Comanche 250"
+        },
+        {
             "file": "p28a_161.txt",
             "name": "Piper Warrior 2"
         },
