@@ -22,6 +22,12 @@ function checklist_item_cross() {
 	// If unchecking, highlight this item and return
 	if(isDone) {
 		this.classList.add('highlight');
+		let next = this.nextElementSibling;
+		if(next) {
+			if(next.classList.contains('comment-strike')) {
+				next.classList.remove('comment-strike');
+			}
+		}
 		return;
 	}
 	

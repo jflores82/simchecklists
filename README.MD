@@ -92,8 +92,12 @@ These may be older versions when compared to the web version. **Use at your own 
 The code is written in Vanilla Javascript, you need to use a browser with support for ECMAScript 2019.
 No need to build anything, it runs straight from the webserver.
 
-### Version History: 
-Version 2.3.6 (2026/11/18)
+### Version History:
+Version 2.4.0 (2026/07/21)
+- Fixed issue #44 -  it was an error on the color of the .comment-strike class on css, related only to the dark mode. 
+- Fixed issue #45 - it was related to an update on the check.js not removing the .comment-strike class of the current item.
+
+Version 2.3.6 (2025/11/18)
 - Added Pilatus Pilatus PC-12 45/47 (Simworks) checklist by alchemydc.
 - Fixed masterlist_gen.py to generate the lists in alphabetical order. (patch by alchemydc)
 
