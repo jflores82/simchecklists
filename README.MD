@@ -46,6 +46,8 @@ If you're on a touchscreen (recommended) just touch the item to cross and move t
 - Cessna 152
 - Cessna 152 (ZL Sim/X-Plane)
 - Cessna 172 Skyhawk (G530 Version)
+- Cessna 208B Grand Caravan EX (MSFS2024)
+- Cessna 208B Grand Caravan EX Amphibian (MSFS2024)
 - Cessna 337 Skymaster (Thranda/X-Plane)
 - Cessna CJ4 (Citation)
 - Cessna 750 (Citation X)
