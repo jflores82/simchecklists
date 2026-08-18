@@ -61,6 +61,14 @@
             "name": "Cessna 172 Skyhawk (G530)"
         },
         {
+            "file": "c208.txt",
+            "name": "Cessna 208B Grand Caravan EX (MSFS2024)"
+        },
+        {
+            "file": "c208_amphib.txt",
+            "name": "Cessna 208B Grand Caravan EX Amphibian (MSFS2024)"
+        },
+        {
             "file": "c337.txt",
             "name": "Cessna 337 Skymaster (Thranda/X-Plane)"
         },

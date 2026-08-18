@@ -1,0 +1,170 @@
+Cessna 208B Grand Caravan EX (MSFS2024)
+--Before Start--
+Preflight=COMPLETE
+Passengers=BRIEFED
+Seats & Belts=SECURE
+Control Lock=REMOVED
+Parking Brake=SET
+Fuel Tank Selectors=BOTH ON
+Fuel Shutoff=IN
+Fuel Condition Lever=CUTOFF
+Power Lever=IDLE
+Prop Lever=FULL FORWARD
+Emergency Power Lever=NORMAL
+Avionics Switches=OFF
+Standby Power=ARM
+Battery=ON
+Annunciators & Volts=CHECK
+Beacon=ON
+--Engine Start--
+Prop Area=CLEAR
+Ignition=ON
+Starter=ENGAGE
+Ng=13% MINIMUM
+**Do not introduce fuel below 13% Ng, hot start risk
+Fuel Condition Lever=LOW IDLE
+ITT=MONITOR
+**Start limit 1090C, abort if approaching
+Oil Pressure=RISING
+Ng Stabilized=52% APPROX
+Starter=OFF
+Ignition=OFF
+--After Start--
+Generator=ON
+Volts & Amps=CHECK
+Avionics Bus 1 & 2=ON
+G1000 NXi=INITIALIZED
+Fuel Quantity=CHECK
+Altimeter & Baro=SET
+Flight Plan=LOADED
+Radios=SET
+Bleed Air & Cabin Heat=AS REQUIRED
+Exterior Lights=AS REQUIRED
+--Taxi--
+Parking Brake=RELEASE
+Brakes=CHECK
+Flight Instruments=CHECK
+Heading Indicator & HSI=SET
+Flight Controls=FREE & CORRECT
+Taxi Light=ON
+--Run-Up / Before Takeoff--
+Parking Brake=SET
+Prop Lever=EXERCISE / FULL FORWARD
+Engine Instruments=GREEN
+Fuel Condition Lever=HIGH IDLE
+Ignition=AUTO
+Inertial Separator=NORMAL
+Ice Protection=AS REQUIRED
+Trim=SET FOR TAKEOFF
+Flaps=10 DEG
+Annunciators=CLEAR
+Doors & Windows=LATCHED
+Transponder=ALT
+Departure Briefing=COMPLETE
+--Takeoff--
+Parking Brake=RELEASE
+Landing & Strobe Lights=ON
+Power Lever=TAKEOFF POWER
+**Max torque 1865 ft-lb, prop 1900 RPM, ITT 805C
+Airspeed Alive=CHECK
+Rotate=70 KIAS
+--After Takeoff / Climb--
+Flaps=UP
+Climb Power=SET
+Engine Instruments=CHECK
+Fuel Tank Selectors=BOTH ON
+Landing Lights=AS REQUIRED
+Altimeter (Transition)=STANDARD
+--Cruise--
+Cruise Power=SET
+Prop RPM=SET
+Mixture / Fuel Flow=CHECK
+Fuel Balance=CHECK
+Engine Instruments=CHECK
+Cabin Temperature=AS REQUIRED
+--Descent--
+Altimeter=SET
+Landing Lights=ON
+Ice Protection=AS REQUIRED
+Approach Briefing=COMPLETE
+Power=AS REQUIRED
+--Before Landing--
+Fuel Tank Selectors=BOTH ON
+Fuel Condition Lever=HIGH IDLE
+Prop Lever=FULL FORWARD
+Seats & Belts=SECURE
+Flaps=AS REQUIRED
+**Full flap 30 deg approach approx 85 KIAS
+Landing & Taxi Lights=ON
+Autopilot=OFF
+--After Landing--
+Flaps=UP
+Ice Protection=OFF
+Landing Lights=OFF
+Strobe Lights=OFF
+Transponder=GND / STBY
+Fuel Condition Lever=LOW IDLE
+Inertial Separator=NORMAL
+--Shutdown--
+Parking Brake=SET
+Power Lever=IDLE
+Bleed Air & Cabin Heat=OFF
+Avionics Bus 1 & 2=OFF
+Exterior Lights=OFF
+Generator=OFF
+ITT=STABLE 1 MIN
+Fuel Condition Lever=CUTOFF
+Fuel Tank Selectors=OFF
+Standby Power=OFF
+Battery=OFF
+Control Lock=INSTALLED
+Chocks & Tiedowns=AS REQUIRED
+--Engine Failure In Flight--
+Airspeed=95 KIAS GLIDE
+Landing Site=SELECT
+Fuel Tank Selectors=BOTH ON
+Fuel Shutoff=IN
+Ignition=ON
+Emergency Power Lever=AS REQUIRED
+Airstart (If Time Permits)=ATTEMPT
+Mayday=DECLARE
+Engine (If No Restart)=SECURE
+Flaps=AS REQUIRED
+--Engine Fire--
+Fuel Condition Lever=CUTOFF
+Fuel Shutoff=PULL
+Fuel Tank Selectors=OFF
+Bleed Air & Cabin Heat=OFF
+Ignition=OFF
+Generator=OFF
+Battery=OFF
+Land=IMMEDIATELY
+--Emergency Descent--
+Power Lever=IDLE
+Prop Lever=FULL FORWARD
+Flaps=UP
+Airspeed=175 KIAS
+Ignition=ON
+Level Off=AS REQUIRED
+--Inadvertent Icing Encounter--
+Exit Icing Conditions=IMMEDIATE
+Inertial Separator=BYPASS
+Pitot & Static Heat=ON
+Stall Warning Heat=ON
+Windshield Anti-Ice=ON
+Prop Anti-Ice=ON
+Deice Boots=CYCLE
+Power=INCREASE
+Airspeed=120 KIAS MINIMUM
+Flaps=DO NOT EXTEND
+Autopilot=OFF
+--Ice Protection Check--
+Pitot & Static Heat=ON / AMMETER RISE
+Stall Warning Heat=ON / AMMETER RISE
+Windshield Anti-Ice=ON / CHECK
+Prop Anti-Ice=ON / AMMETER RISE
+Deice Boots=CYCLE / CHECK INFLATE
+Inertial Separator=BYPASS THEN NORMAL
+Standby Instruments=CHECK
+All Ice Protection=OFF IF NOT REQUIRED
+--Checklist for the MSFS2024 default Cessna 208B Grand Caravan EX. Simulation use only.--

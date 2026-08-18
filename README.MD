@@ -46,6 +46,8 @@ If you're on a touchscreen (recommended) just touch the item to cross and move t
 - Cessna 152
 - Cessna 152 (ZL Sim/X-Plane)
 - Cessna 172 Skyhawk (G530 Version)
+- Cessna 208B Grand Caravan EX (MSFS2024)
+- Cessna 208B Grand Caravan EX Amphibian (MSFS2024)
 - Cessna 337 Skymaster (Thranda/X-Plane)
 - Cessna CJ4 (Citation)
 - Cessna 750 (Citation X)
@@ -93,6 +95,10 @@ The code is written in Vanilla Javascript, you need to use a browser with suppor
 No need to build anything, it runs straight from the webserver.
 
 ### Version History:
+Version 2.4.1 (2026/08/17)
+- Added Cessna 208B Grand Caravan EX (MSFS2024) checklist by alchemydc.
+- Added Cessna 208B Grand Caravan EX Amphibian (MSFS2024) checklist by alchemydc.
+
 Version 2.4.0 (2026/07/21)
 - Fixed issue #44 -  it was an error on the color of the .comment-strike class on css, related only to the dark mode. 
 - Fixed issue #45 - it was related to an update on the check.js not removing the .comment-strike class of the current item.

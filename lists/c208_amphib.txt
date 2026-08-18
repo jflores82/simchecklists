@@ -1,0 +1,231 @@
+Cessna 208B Grand Caravan EX Amphibian (MSFS2024)
+--Before Start--
+Preflight=COMPLETE
+Float Compartments=PUMPED & INSPECTED
+Float Struts & Fittings=CHECK
+Water Rudders=UP
+Mooring Lines & Anchor=STOWED / CLEAR
+Passengers=BRIEFED
+Seats & Belts=SECURE
+Control Lock=REMOVED
+Parking Brake=SET
+Landing Gear=CONFIRM FOR SURFACE
+**On land GEAR DOWN, on water GEAR UP. Confirm before every start and every landing
+Fuel Tank Selectors=BOTH ON
+Fuel Shutoff=IN
+Fuel Condition Lever=CUTOFF
+Power Lever=IDLE
+Prop Lever=FULL FORWARD
+Emergency Power Lever=NORMAL
+Avionics Switches=OFF
+Standby Power=ARM
+Battery=ON
+Annunciators & Volts=CHECK
+Beacon=ON
+--Engine Start--
+Prop Area=CLEAR
+Ignition=ON
+Starter=ENGAGE
+Ng=13% MINIMUM
+**Do not introduce fuel below 13% Ng, hot start risk
+Fuel Condition Lever=LOW IDLE
+ITT=MONITOR
+**Start limit 1090C, abort if approaching
+Oil Pressure=RISING
+Ng Stabilized=52% APPROX
+Starter=OFF
+Ignition=OFF
+--After Start--
+Generator=ON
+Volts & Amps=CHECK
+Avionics Bus 1 & 2=ON
+G1000 NXi=INITIALIZED
+Gear Position & Annunciator=CHECK
+Fuel Quantity=CHECK
+Altimeter & Baro=SET
+Flight Plan=LOADED
+Radios=SET
+Bleed Air & Cabin Heat=AS REQUIRED
+Exterior Lights=AS REQUIRED
+--Taxi (Land)--
+Landing Gear=DOWN / 3 GREEN
+Water Rudders=UP
+Parking Brake=RELEASE
+Brakes=CHECK
+Flight Instruments=CHECK
+Heading Indicator & HSI=SET
+Flight Controls=FREE & CORRECT
+Taxi Light=ON
+--Taxi (Water)--
+Landing Gear=UP / CONFIRMED
+**No brakes on water. Gear down on water will cause a violent nose-over
+Water Rudders=DOWN
+Yoke=FULL AFT
+Power Lever=IDLE TAXI
+Flaps=UP
+Wind & Current=ASSESS
+Traffic & Debris=CLEAR
+**Plow taxi is high drag and nose-low, minimize it. Step taxi only with room ahead
+--Before Takeoff (Land)--
+Landing Gear=DOWN / 3 GREEN
+Water Rudders=UP
+Parking Brake=SET
+Prop Lever=EXERCISE / FULL FORWARD
+Engine Instruments=GREEN
+Fuel Condition Lever=HIGH IDLE
+Ignition=AUTO
+Inertial Separator=NORMAL
+Trim=SET FOR TAKEOFF
+Flaps=10 DEG
+Annunciators=CLEAR
+Doors & Windows=LATCHED
+Transponder=ALT
+--Before Takeoff (Water)--
+Landing Gear=UP / CONFIRMED
+**Verify gear UP by annunciator and by float mirror before every water takeoff
+Water Rudders=UP
+Prop Lever=FULL FORWARD
+Fuel Condition Lever=HIGH IDLE
+Ignition=AUTO
+Trim=SET FOR TAKEOFF
+Flaps=20 DEG
+Doors & Windows=LATCHED
+Takeoff Path=CLEAR OF TRAFFIC & DEBRIS
+Transponder=ALT
+Yoke=FULL AFT THEN RELAX ON STEP
+**Hold aft to rotate onto the step, then relieve back pressure and let it accelerate
+--Takeoff--
+Landing & Strobe Lights=ON
+Power Lever=TAKEOFF POWER
+**Max torque 1865 ft-lb, prop 1900 RPM, ITT 805C
+Airspeed Alive=CHECK
+Rotate=70 KIAS
+--After Takeoff / Climb--
+Flaps=UP
+Water Rudders=UP
+Climb Power=SET
+Engine Instruments=CHECK
+Fuel Tank Selectors=BOTH ON
+Landing Lights=AS REQUIRED
+Altimeter (Transition)=STANDARD
+--Cruise--
+Cruise Power=SET
+Prop RPM=SET
+Fuel Flow & Balance=CHECK
+Engine Instruments=CHECK
+Cabin Temperature=AS REQUIRED
+--Descent--
+Altimeter=SET
+Landing Lights=ON
+Ice Protection=AS REQUIRED
+Landing Surface=CONFIRM LAND OR WATER
+Approach Briefing=COMPLETE
+--Before Landing (Land)--
+Landing Gear=DOWN
+Gear Annunciator=3 GREEN
+**Say it out loud: GEAR DOWN FOR RUNWAY LANDING
+Water Rudders=UP
+Fuel Tank Selectors=BOTH ON
+Fuel Condition Lever=HIGH IDLE
+Prop Lever=FULL FORWARD
+Seats & Belts=SECURE
+Flaps=AS REQUIRED
+Landing & Taxi Lights=ON
+Autopilot=OFF
+--Before Landing (Water)--
+Landing Gear=UP
+Gear Annunciator=NO GREEN / UP CONFIRMED
+**Say it out loud: GEAR UP FOR WATER LANDING. Confirm twice, mirror check if available
+Water Rudders=UP
+Fuel Tank Selectors=BOTH ON
+Fuel Condition Lever=HIGH IDLE
+Prop Lever=FULL FORWARD
+Seats & Belts=SECURE
+Flaps=20 DEG OR 30 DEG
+Landing Area=CLEAR & ASSESSED
+**Assess glassy water, swell direction and wind. Glassy water needs a power-on rate of descent
+Autopilot=OFF
+--After Landing (Land)--
+Flaps=UP
+Water Rudders=UP
+Ice Protection=OFF
+Landing & Strobe Lights=OFF
+Transponder=GND / STBY
+Fuel Condition Lever=LOW IDLE
+--After Landing (Water) / Docking--
+Yoke=FULL AFT
+Flaps=UP
+Water Rudders=DOWN
+Fuel Condition Lever=LOW IDLE
+Landing & Strobe Lights=OFF
+Transponder=STBY
+Approach To Dock=INTO WIND / SLOW
+Fuel Condition Lever (Before Contact)=CUTOFF
+**Shut down early and sail or drift the last few yards, never power into a dock
+Lines & Anchor=SECURED
+--Shutdown--
+Parking Brake=SET IF ON LAND
+Power Lever=IDLE
+Bleed Air & Cabin Heat=OFF
+Avionics Bus 1 & 2=OFF
+Exterior Lights=OFF
+Generator=OFF
+ITT=STABLE 1 MIN
+Fuel Condition Lever=CUTOFF
+Fuel Tank Selectors=OFF
+Standby Power=OFF
+Battery=OFF
+Control Lock=INSTALLED
+Float Compartments=PUMP AS REQUIRED
+Chocks / Lines / Tiedowns=AS REQUIRED
+--Engine Failure In Flight--
+Airspeed=95 KIAS GLIDE
+Landing Site=SELECT
+Landing Gear=SET FOR SURFACE
+**Water landing gear UP. A gear down water ditching will flip the aircraft
+Fuel Tank Selectors=BOTH ON
+Fuel Shutoff=IN
+Ignition=ON
+Emergency Power Lever=AS REQUIRED
+Airstart (If Time Permits)=ATTEMPT
+Mayday=DECLARE
+Engine (If No Restart)=SECURE
+Flaps=AS REQUIRED
+--Engine Fire--
+Fuel Condition Lever=CUTOFF
+Fuel Shutoff=PULL
+Fuel Tank Selectors=OFF
+Bleed Air & Cabin Heat=OFF
+Ignition=OFF
+Generator=OFF
+Battery=OFF
+Land=IMMEDIATELY
+--Emergency Descent--
+Power Lever=IDLE
+Prop Lever=FULL FORWARD
+Flaps=UP
+Airspeed=175 KIAS
+Ignition=ON
+Level Off=AS REQUIRED
+--Inadvertent Icing Encounter--
+Exit Icing Conditions=IMMEDIATE
+Inertial Separator=BYPASS
+Pitot & Static Heat=ON
+Stall Warning Heat=ON
+Windshield Anti-Ice=ON
+Prop Anti-Ice=ON
+Deice Boots=CYCLE
+Power=INCREASE
+Airspeed=120 KIAS MINIMUM
+Flaps=DO NOT EXTEND
+Autopilot=OFF
+--Ice Protection Check--
+Pitot & Static Heat=ON / AMMETER RISE
+Stall Warning Heat=ON / AMMETER RISE
+Windshield Anti-Ice=ON / CHECK
+Prop Anti-Ice=ON / AMMETER RISE
+Deice Boots=CYCLE / CHECK INFLATE
+Inertial Separator=BYPASS THEN NORMAL
+Standby Instruments=CHECK
+All Ice Protection=OFF IF NOT REQUIRED
+--Checklist for the MSFS2024 Cessna 208B Grand Caravan EX Amphibian. Simulation use only.--
